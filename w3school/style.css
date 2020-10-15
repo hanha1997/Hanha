@@ -1,0 +1,285 @@
+
+*{
+	padding:0;
+	margin:0;
+	border: 0;
+}
+.main
+{
+	width: 1340px;
+	height: auto;
+	overflow: hidden;
+	margin: auto;
+
+}
+.top 
+{
+	width: 100%;
+	height: 800px;
+	background-color: white;
+
+}
+.title
+{
+	widows: 100%;
+	height: 40px;
+	background-color:white;
+/**/
+
+}
+.title ul li
+{
+	list-style: none;
+	float:right;
+
+}
+.title ul li a
+{
+	display: block;
+	text-decoration: none;
+	padding-right: 30px;
+	line-height: 40px;
+	font-size: 20px;
+	color: black;
+	font-family: Arial;
+	text-align: center;
+
+}
+
+.title ul li a:hover
+{
+	background-color:#8080805c;
+	
+}
+.hinhanh 
+{
+	background-image: url('img/architect.jpg');
+	background-size:cover;
+	width: 100%;
+	height: 760px;
+}
+.hinhanh p
+{
+
+	font-size: 50px;
+	text-align: center;
+	color:white;
+	padding-top:25%;
+}
+/*project*/
+.projects
+{
+	width: 100%;
+	/*margin-left: 20px;
+	margin-right: 20px;*/
+}
+.projects h1
+{
+	font-size :30px;
+	font-family: Arial;
+	margin-top: 30px;
+	margin-bottom: 30px;
+	border-bottom:  1px solid #8080802b;
+}
+.edit
+{
+	display: block;
+	width: 100%;
+	display: flex;
+	flex-direction: row;
+	justify-content: space-between;
+	margin-top: 20px;
+
+}
+.img
+{
+
+	width: 300px;
+	position: relative;
+	
+
+}
+.projects img
+{
+	width: 310px;
+	
+	
+	
+}
+.img a
+{
+	display: block;
+	text-decoration: none;	
+	color: white;
+	font-size:20px;
+	background-color:black;
+	width:150px;
+	position: absolute;
+	top:0px;
+	left:0px;
+	height: 30px;
+	line-height: 30px;
+	text-align: center;
+}
+/*projects*/
+.about
+{
+	width: 100%;
+	margin-top: 20px;
+}
+.about h1
+{
+	font-size :30px;
+	font-family: Arial;
+	margin-bottom: 30px;
+	border-bottom:  1px solid #8080802b;
+	padding-bottom:  5px;
+
+
+}
+.about p
+{
+	font-family: Arial;
+	font-size:18px;
+
+}
+.about1
+{
+	width: 100%;
+	display: block;
+	
+	display: flex;
+	flex-direction: row;
+	justify-content: space-between;
+	margin-top: 20px;
+}
+.about2
+{
+	width: 300px;
+}
+.about2 img
+{
+	width: 300px;
+	margin-top: 40px;
+}
+.about2 h2
+{		
+	padding-top: 10px;
+}
+.about2 h3
+{
+	color: #8080806b;
+	padding-top: 10px;
+}
+.about2 p
+{
+	padding-top: 10px;
+	padding-bottom: 20px;
+}
+.about2 a
+{
+	display: block;
+	text-decoration: none;
+	width: 100%;
+	height: 40px;
+	line-height: 40px;
+	background-color:#80808033;
+	text-align: center;
+	color: black;
+	font-size:15px;
+
+
+}
+.about2 a:hover
+{
+	background-color: grey;
+}
+/*about*/
+.contact
+{
+	width: 100%;
+	margin-top: 20px;
+}
+.contact h1
+{
+	font-size :30px;
+	font-family: Arial;
+	margin-bottom: 30px;
+	border-bottom:  1px solid #8080802b;
+	padding-bottom:  5px;
+
+
+}
+.contact p
+{
+	font-size:20px;
+}
+.type
+{
+	width: 100%;
+	height: 30px;
+	border: 1px solid #ccc;
+	font-size: 15px;
+	margin-bottom: 10px;
+	margin-top: 10px;
+}
+.type1
+{
+	width: 100%;
+	height: 30px;
+	border: 1px solid #ccc;
+	font-size: 15px;
+	margin-top: 10px;
+	margin-bottom: 10px;
+}
+.type2
+{
+
+	margin-left: 10px;
+	margin-top: 20px;
+	font-size:15px;
+	background-color:black;
+	color: white;
+	height: 40px;
+	width: 180px;
+
+}
+.type2:hover
+{
+	background: grey;
+}
+/*contact*/
+.hinh
+{
+	margin-top: 40px;
+	width: 100%;
+	height: auto;
+	
+}
+.end
+{
+	width: 100%;
+	height: 80px;
+	background-color:black;
+	/*display: flex;
+	flex-direction: row;*/
+}
+
+.end ul li 
+{
+	display: block;
+	list-style: none;
+	float:left;
+	color: white;
+	padding-right: 5px;
+	padding-top: 20px;
+	text-align: center;
+	padding-left: 400px;
+
+	
+}
+.end a 
+{
+	display: block;
+	color:white;
+	}
